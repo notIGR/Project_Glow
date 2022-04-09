@@ -42,8 +42,21 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin: 1 1 1 1;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 30px;
+}
+nav ul li {
+  background: #2c3e50;
+  position: relative;
+  display: inline-block;
+}
+nav ul li a {
+  display:block;
+  padding: 0 15px;
+  color:#ffffff;
+  line-height: 60px;
 }
 
 nav li {
