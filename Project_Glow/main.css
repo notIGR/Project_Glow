@@ -48,7 +48,7 @@ nav ul {
   margin-right: 30px;
 }
 nav ul li {
-  background: #2c3e50;
+  background: black;
   position: relative;
   display: inline-block;
 }
@@ -74,7 +74,7 @@ nav ul ul li {
   float:none;
   display: list-item;
   position: relative;
-  
+
 }
 nav li {
   font-size: 150%;
