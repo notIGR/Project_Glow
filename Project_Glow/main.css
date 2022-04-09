@@ -58,7 +58,24 @@ nav ul li a {
   color:#ffffff;
   line-height: 60px;
 }
-
+nav ul li a:hover{
+  color:#459ef6;
+}
+nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li {
+  width:150px;
+  float:none;
+  display: list-item;
+  position: relative;
+  
+}
 nav li {
   font-size: 150%;
   display: inline;
